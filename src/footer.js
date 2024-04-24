@@ -1,12 +1,31 @@
-const Footer = () =>{
-    return <footer className="py-4">
-        <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Briyan</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Davila</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Ortiz</a></li>
-        </ul>
-        <p className="text-center text-muted">© 2024 UNIVERSIDAD PRIVADA ANTENOR ORREGO - INTERACCION HOMBRE MAQUINA</p>
-    </footer>
-}
-
-export default Footer;
+const Footer = () => {
+    return (
+      <footer className="bg-dark text-white py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4">
+              <h5 className="mb-4">Desarrollador</h5>
+              <p className="text-white"> Davila Ortiz, Briyan</p>
+            </div>
+            <div className="col-md-4">
+              <h5 className="mb-4">Universidad</h5>
+              <p>© 2024 UNIVERSIDAD PRIVADA ANTENOR ORREGO</p>
+              <p>INTERACCION HOMBRE MAQUINA</p>
+            </div>
+            <div className="col-md-4">
+              <h5 className="mb-4">Contacto</h5>
+              <ul className="list-unstyled">
+                <li><a href="#" className="text-white text-decoration-none"><i className="fas fa-envelope"></i> Email</a></li>
+                <li><a href="#" className="text-white text-decoration-none"><i className="fas fa-phone"></i> Teléfono</a></li>
+                <li><a href="#" className="text-white text-decoration-none"><i className="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#" className="text-white text-decoration-none"><i className="fab fa-facebook"></i> Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    );
+  }
+  
+  export default Footer;
+  
