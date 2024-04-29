@@ -1,3 +1,5 @@
+import Carousel from 'react-bootstrap/Carousel';
+
 const Main = () => {
     return (
       <main className="col-md-8">
@@ -7,27 +9,31 @@ const Main = () => {
           </h1>
         </div>
   
-        <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src="https://peruretail.sfo3.cdn.digitaloceanspaces.com/wp-content/uploads/real-plaza-puruchuco-5-1140x570.png" className="d-block w-100 rounded" alt="Real Plaza 1"></img>
-            </div>
-            <div className="carousel-item">
-              <img src="https://via.placeholder.com/1140x570" className="d-block w-100 rounded" alt="Real Plaza 2"></img>
-            </div>
-            <div className="carousel-item">
-              <img src="https://via.placeholder.com/1140x570" className="d-block w-100 rounded" alt="Real Plaza 3"></img>
-            </div>
-          </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Anterior</span>
-          </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Siguiente</span>
-          </button>
-        </div>
+        <Carousel>
+      <Carousel.Item interval={1000}>
+        <img src="https://elcomercio.pe/resizer/154Aw4arS1atCK2ylXh3colFKFw=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/FEU3TN4YMZFVRCAWL5BUPBB3GA.jpeg" className="d-block w-100 rounded" alt="Real Plaza 1" />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={500}>
+        <img src="https://gestion.pe/resizer/elVQjqRnkNibm0yJRmTpGPDhLsU=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/RDUMSRCGPRAUZBQYJ52XEC4ME4.jpg" />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://elcomercio.pe/resizer/JAbvNYhWZ_CBBBA4ykbBHbDZmHw=/1200x800/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/7R5JAVIZFVCMJP2UYT22GBYBRY.jpg" />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
   
         <div className="py-5">
           <div className="text-center mb-5">
