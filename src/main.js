@@ -13,8 +13,7 @@ const Main = () => {
       <Carousel.Item interval={1000}>
         <img src="https://elcomercio.pe/resizer/154Aw4arS1atCK2ylXh3colFKFw=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/FEU3TN4YMZFVRCAWL5BUPBB3GA.jpeg" className="d-block w-100 rounded" alt="Real Plaza 1" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>CENTROS COMERCIALES A NIVEL NACIONAL</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
