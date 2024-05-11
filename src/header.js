@@ -7,8 +7,8 @@ const Header = () => {
 
   return (
     <header className="d-flex justify-content-between align-items-center py-3 bg-dark">
-      <a className="navbar-brand" href="#">
-        <img src="https://lh5.googleusercontent.com/proxy/XrLncyXQ4_uXyj5XSCxudqKk1Y5a_8ILRHsNezmm_Pm50KhjtUjAzuMMj5S0bDaBbifnkilmFR6Q0GbVZIHEX4x0y0D7xDUkADJhqYi95vR_daomryVxwgmcs-aGK_QLsV7TAtpu46jYDURvVr-VbFRbU07PG_y1b99jYxqfq3uvn3IQN8bXKs4-BfbBGQ" alt="Logo" style={{ width: 'auto', height: '40px' }} />
+      <a className="navbar-brand" href="#" style={{ fontFamily: "'Press Start 2P', cursive", color: 'white', fontSize: '20px' }}>
+        UndergroundPE
       </a>
       <div>
         <button className="btn btn-outline-light me-2">
